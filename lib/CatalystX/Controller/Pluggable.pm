@@ -4,7 +4,7 @@ use Module::Pluggable::Object;
 use Moose::Util;
 extends 'Catalyst::Controller';
 # ABSTRACT: Pluggable Roles for your controller
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 has 'plugin_path' => ( 
    is => 'rw',
@@ -35,11 +35,11 @@ __END__
 
 =head1 NAME
 
-Catalyst::Controller::Pluggable
+CatalystX::Controller::Pluggable
 
 =head1 VERSION
 
-version 0.01
+version 0.02
 
 =head1 SYNOPSIS
 
